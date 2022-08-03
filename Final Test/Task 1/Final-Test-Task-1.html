@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Test Task 1</title>
+</head>
+<body>
+    <script>
+        let a = prompt("nhập số a")
+        let b = prompt("nhập số b")
+        
+        function soNguyenTo(s){
+    let check = true;
+    if (s < 2){
+        check = false;
+    }
+    else{
+        for (let i = 2; i < s-1; i++)
+        {
+            if (s % i == 0){
+                flag = false;
+                break;
+            }
+        }
+    }
+    if (check == true){
+        document.write(s+" ");
+    }
+   
+}
+        for(let i=Number(a)+1;i<Number(b);i++){
+            soNguyenTo(i);
+        }
+        
+    </script>
+</body>
+</html>

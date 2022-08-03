@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    gap: 70px;
+
+    position: absolute;
+    width: 1213px;
+    height: 830px;
+    left: 193px;
+    top: 173px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+header{
+    padding: 0px;
+    width: 1013px;
+    height: 64px;
+}
+
+main{
+    padding: 0px;
+    gap: 16px;
+
+    width: 1013px;
+    height: 432px;
+}
+
+.search{
+    box-sizing: border-box;
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+
+    width: 327px;
+    height: 64px;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+}
+
+.card{
+    border-radius: 16px;
+}
+
+.button{
+padding: 16px;
+gap: 8px;
+
+width: 115px;
+height: 56px;
+
+color: #151B32;
+border-radius: 8px;
+text-decoration: none;
+}
+
+.button:hover{
+    background: #849FFF;
+    color: #FFFFFF;
+}
+
+.hobby{
+    border-radius: 16px;
+}
